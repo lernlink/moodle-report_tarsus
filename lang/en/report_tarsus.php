@@ -24,8 +24,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Tarsus analytics';
-$string['report/tarsus:view'] = 'View the Tarsus analytics report';
-$string['tarsus:view'] = 'View the Tarsus analytics report';
 $string['placeholder'] = 'Tarsus analytics will appear here. Phase 1 surfaces native Moodle activity data (attempts, answers and the usage ledger); Tarsus Advisory insights and dropout-risk follow later.';
+$string['pluginname'] = 'Tarsus analytics';
 $string['privacy:metadata'] = 'The Tarsus analytics report stores no personal data itself; it displays data gathered by other Moodle subsystems.';
+$string['tarsus:view'] = 'View the Tarsus analytics report';
