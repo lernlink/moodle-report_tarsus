@@ -8,27 +8,28 @@
 //
 // Moodle is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle. If not, see <https://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
  * Plugin version and metadata for report_tarsus.
  *
  * @package    report_tarsus
- * @copyright  2026 lern.link GmbH
+ * @copyright  2026 lern.link GmbH | Vadym Nersesov <nersesov.vadim@gmail.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'report_tarsus';
-$plugin->version   = 2026062600;
-$plugin->requires  = 2025041400; // Moodle 5.0+ (target platform: Moodle 5.2).
+$plugin->version   = 2026110600;
+$plugin->requires  = 2025041400; // Moodle 5.0.
+$plugin->supported = [502, 503]; // Tested on Moodle 5.2 and 5.3.
 $plugin->maturity  = MATURITY_ALPHA;
-$plugin->release   = '0.1.0 (Phase 0 scaffold)';
+$plugin->release   = '0.1.1';
 $plugin->dependencies = [
-    'local_tarsus' => 2026062506,
+    'local_tarsus' => 2026110601,
 ];
